@@ -1,7 +1,7 @@
 # markup-formatter
 NodeJS script for formatting markup-based files (like HTML, XML, etc)
 
-
+```
 markup-formatter.js [options] file...
 
 Options:
@@ -24,4 +24,4 @@ nodejs markup-formatter.js --inplace -n ' ' input.xml
 
 nodejs markup-formatter.js --minify -e min a.html b.html c.html
    : minify a.html, b.html & c.html creating output files a.html.min, b.html.min & c.html.min
-
+```
