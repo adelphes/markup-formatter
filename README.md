@@ -11,7 +11,7 @@ Options:
    -m --minify          minify instead of prettify
    -nc --no-comments    strip markup comments from result
    -ia --indent-attrib  indent attributes (default: inline attributes)
-   -p --print           always write result to stdout, even when --inplace or --ext is specified
+   -p --print           always write result to stdout, even when --inplace or --ext
    -k --keepgoing       always continue, even when file read or write errors occur
    -h --help            show this help
 
@@ -19,7 +19,7 @@ Examples:
 nodejs markup-formatter.js input.html
    : prettify input.html using 3-space indent and write result to stdout
 
-nodejs markup-formatter.js --inplace -n ' ' input.xml
+nodejs markup-formatter.js --inplace -i ' ' input.xml
    : prettify input.xml using 1-space indent and replace input.xml with result
 
 nodejs markup-formatter.js --minify -e min a.html b.html c.html
